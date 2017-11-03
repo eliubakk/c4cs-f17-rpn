@@ -5,6 +5,8 @@ import operator
 ops = {
 	'+': operator.add,
 	'-': operator.sub,
+	'/': operator.truediv,
+	'*': operator.mul,
 }
 
 def calculate(equation):
